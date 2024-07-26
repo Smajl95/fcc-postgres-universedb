@@ -1,0 +1,120 @@
+builtin unset VSCODE_INJECTION
+[ -z "$VSCODE_SHELL_INTEGRATION" ]
+[ -n "${VSCODE_ENV_REPLACE:-}" ]
+[ -n "${VSCODE_ENV_PREPEND:-}" ]
+[ -n "${VSCODE_ENV_APPEND:-}" ]
+[[ "$(uname -s)" =~ ^CYGWIN*|MINGW*|MSYS* ]]
+__vsc_is_windows=0
+[[ "$HISTCONTROL" =~ .. ]]
+__vsc_history_verify=1
+__vsc_initialized=0
+__vsc_original_PS1="$PS1"
+__vsc_original_PS2="$PS2"
+__vsc_custom_PS1=""
+__vsc_custom_PS2=""
+__vsc_in_command_execution="1"
+__vsc_current_command=""
+__vsc_nonce="$VSCODE_NONCE"
+unset VSCODE_NONCE
+__vsc_stable="$VSCODE_STABLE"
+unset VSCODE_STABLE
+[ "$__vsc_stable" = "0" ]
+[[ -n "${bash_preexec_imported:-}" ]]
+__vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
+[[ -z "$__vsc_dbg_trap" ]]
+[[ "$__vsc_dbg_trap" != '__vsc_preexec "$_"' && "$__vsc_dbg_trap" != '__vsc_preexec_all "$_"' ]]
+trap '__vsc_preexec_all "$_"' DEBUG
+__vsc_original_prompt_command=${PROMPT_COMMAND:-}
+psql --username=freecodecamp --dbname=postgres
+psql --username=freecodecamp --dbname=postgres
+pg_dump -cC --inserts -U freecodecamp universe > universe.sql
+git remote add origin https://github.com/Smajl95/fcc-postgres-universedb.git
+git add .
+git commit -m "init commit"
+git push
+gitpod_pat_2AQQDY9JSPGDSxZ2-dt1e7Z6RhpTEmy4vZng1l4g3PE.Cyj2xWii60rVQWgGPxwJKqXFcrn6q4rplfgIewr2
+psql --username=freecodecamp --dbname=postgres
+builtin unset VSCODE_INJECTION
+[ -z "$VSCODE_SHELL_INTEGRATION" ]
+[ -n "${VSCODE_ENV_REPLACE:-}" ]
+[ -n "${VSCODE_ENV_PREPEND:-}" ]
+[ -n "${VSCODE_ENV_APPEND:-}" ]
+[[ "$(uname -s)" =~ ^CYGWIN*|MINGW*|MSYS* ]]
+__vsc_is_windows=0
+[[ "$HISTCONTROL" =~ .. ]]
+__vsc_history_verify=1
+__vsc_initialized=0
+__vsc_original_PS1="$PS1"
+__vsc_original_PS2="$PS2"
+__vsc_custom_PS1=""
+__vsc_custom_PS2=""
+__vsc_in_command_execution="1"
+__vsc_current_command=""
+__vsc_nonce="$VSCODE_NONCE"
+unset VSCODE_NONCE
+__vsc_stable="$VSCODE_STABLE"
+unset VSCODE_STABLE
+[ "$__vsc_stable" = "0" ]
+[[ -n "${bash_preexec_imported:-}" ]]
+__vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
+[[ -z "$__vsc_dbg_trap" ]]
+[[ "$__vsc_dbg_trap" != '__vsc_preexec "$_"' && "$__vsc_dbg_trap" != '__vsc_preexec_all "$_"' ]]
+trap '__vsc_preexec_all "$_"' DEBUG
+__vsc_original_prompt_command=${PROMPT_COMMAND:-}
+pg_dump -cC --inserts -U freecodecamp universe > universe.sql
+git init.
+git init
+git commit -m "first commit"
+git add .
+git remote add origin https://github.com/Smajl95/fcc-postgres-universedb.git
+git push
+git remote add origin https://github.com/Smajl95/fcc-postgres-universedb.git
+git remote remove origin
+git remote add origin https://github.com/Smajl95/fcc-postgres-universedb.git
+git add .
+git commit -m "Commit all changes"
+git push -u origin main
+git remote set-url origin https://YOUR_USERNAME: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@github.com/Smajl95/fcc-postgres-universedb.git
+git push -u origin main
+git remote remove origin
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://YOUR_USERNAME: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@github.com/Smajl95/fcc-postgres-universedb.git
+git push -u origin main
+git push
+git remote add origin https://YOUR_USERNAME:gitpod_pat_TqOG4alVezKjDzaL1MGdrnBCp1M9IVCo-uwxiB-FRLI.vus6UBbSd5WCV6Wokj0CHwSM0rwqA5mfJesDmyGE@github.com/Smajl95/fcc-postgres-universedb.git
+rm -rf .git
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://Smajl95: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@github.com/Smajl95/fcc-postgres-universedb.git
+git push -u origin main
+rm -rf .git
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://Smajl95:gitpod_pat_TqOG4alVezKjDzaL1MGdrnBCp1M9IVCo-uwxiB-FRLI.vus6UBbSd5WCV6Wokj0CHwSM0rwqA5mfJesDmyGE@github.com/Smajl95/fcc-postgres-universedb.git
+git push -u origin main
+[200~git branch -m main
+git branch -m main
+git branch
+git remote add origin https://Smajl95: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@github.com/Smajl95/fcc-postgres-universedb.git
+git push -u origin main
+rm -rf .git
+pg_dump -cC --inserts -U freecodecamp universe > universe.sql
+__vsc_prompt_cmd_original
+git remote add origin https://github.com/Smajl95/fcc-postgres-universedb.git
+git init
+git remote add origin https://github.com/Smajl95/fcc-postgres-universedb.git
+git add .
+git commit -m "Initial commit"
+git push
+git push --set-upstream origin master
+git push
+git push --set-upstream origin master
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+rm -rf .git
+git init
+git add .
